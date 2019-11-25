@@ -20,8 +20,8 @@ else:
     print('Example: sudo ./Adafruit_DHT.py 2302 4 - Read from an AM2302 connected to GPIO pin #4')
     sys.exit(1)
     
-deviceId = "DeSmf0d6“
-deviceKey = “jh9uDzcszNN44BpF“ 
+deviceId = "DeSmf0d6"
+deviceKey = "jh9uDzcszNN44BpF"
 def post_to_mcs(payload): 
 	headers = {"Content-type": "application/json", "deviceKey": deviceKey} 
 	not_connected = 1 
