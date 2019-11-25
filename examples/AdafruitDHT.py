@@ -4,7 +4,7 @@ import Adafruit_DHT
 import time
 import sys
 import http.client as http
-Import urllib
+import urllib
 import json
 
 
